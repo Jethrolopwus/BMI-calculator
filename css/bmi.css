@@ -1,0 +1,40 @@
+#modal {
+    position: absolute;
+    margin-top: 10%;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    background-color: blue;
+    margin-left: 20%;
+    border-radius: 5px;
+    flex: 1;
+    display: none;
+}
+
+.close {
+    margin-left: 60%;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#result {
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    padding-top: 20%;
+    justify-self: center;
+    margin-left: 30%;
+}
+
+#btn {
+    position: relative;
+    margin-top: 10%;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    margin-left: 40%;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-size: 14px;
+    font-family: "Montserrat";
+}
+
+header {
+    background-color: #2c2a4a;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    margin-right: 10px;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 50px);
+}
+
+main .left-section,
+main .right-section {
+    width: 50%;
+}
+
+main .left-section {
+    background-image: url(../images/exercise.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main .right-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+
+/* main .right-section form {
+ 
+} */
+
+.right-section .form-control {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.right-section .form-control input {
+    width: 100%;
+    padding: 6px;
+}
+
+button {
+    width: 100%;
+    background-color: #2c2a4a;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-family: Montserrat;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+::placeholder {
+    text-align: center;
+}
